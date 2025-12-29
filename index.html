@@ -216,6 +216,17 @@
             font-weight: 300;
         }
 
+        .tagline a {
+            color: var(--white);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            transition: border-color 0.3s ease;
+        }
+
+        .tagline a:hover {
+            border-bottom-color: var(--white);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .hero {
@@ -266,7 +277,7 @@
         </div>
 
         <div class="bottom-section">
-            <p class="tagline">We're building a new website for <strong>Abet Labs</strong>. Stay tuned.</p>
+            <p class="tagline">We're building a new website for <strong>Abet Labs</strong>. For careers, email us at <a href="mailto:jobs@abetlabs.com">jobs@abetlabs.com</a>.</p>
         </div>
     </div>
 
